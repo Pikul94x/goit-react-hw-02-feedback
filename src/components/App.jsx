@@ -48,7 +48,7 @@ export class App extends React.Component {
   render() {
     const options = Object.keys(this.state);
     return (
-      <div>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={options}
